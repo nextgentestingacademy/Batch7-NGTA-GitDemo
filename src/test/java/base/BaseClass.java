@@ -27,8 +27,8 @@ public class BaseClass {
 		
 		
 		switch(browser.trim().toLowerCase()) {
-		case "chrome":
-			DriverFactoryUtil.initDriver("chrome");
+		case "chromium":
+			DriverFactoryUtil.initDriver("chromium");
 			driver = DriverFactoryUtil.getDriver();
 			break;
 		case "firefox":
