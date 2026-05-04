@@ -16,7 +16,7 @@ import utils.LogUtil;
 
 public class BaseClass {
 	protected static WebDriver driver;
-	
+	//this comment is added directly from the github central repository
 	@BeforeMethod(alwaysRun = true)
 	public static void beforeMethod() {
 		LogUtil.info("Browser configured and launched");
