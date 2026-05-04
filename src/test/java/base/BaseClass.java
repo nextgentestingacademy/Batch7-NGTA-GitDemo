@@ -31,6 +31,10 @@ public class BaseClass {
 			DriverFactoryUtil.initDriver("safari");
 			driver = DriverFactoryUtil.getDriver();
 			break;
+		case "chromium":
+			DriverFactoryUtil.initDriver("chromium");
+			driver = DriverFactoryUtil.getDriver();
+			break;
 		case "firefox":
 			DriverFactoryUtil.initDriver("firefox");
 			driver = DriverFactoryUtil.getDriver();
